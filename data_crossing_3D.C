@@ -866,4 +866,5 @@ void data_crossing_3D::Loop()
   XYZ_entries_fwd->Write();
   XYZ_entries_bkwd->Write();
   std::cout<<"code finished successfully "<<std::endl;
+  f->Close();
 }//Loop()

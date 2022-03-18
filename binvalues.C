@@ -51,4 +51,5 @@ void binvalues(){
   //end of example
   XYZ_Zdist_neg->Write();
   XYZ_Zdist_pos->Write();
+  newfile->Close();	
 }
